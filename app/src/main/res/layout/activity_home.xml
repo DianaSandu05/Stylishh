@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.HomeActivity"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Services Name"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#000"
+        android:textSize="20sp"/>
+    <EditText
+        android:id="@+id/txt_service_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:inputType="text"
+        android:textAppearance="?android:attr/textAppearance"
+        android:textColor="@android:color/black" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="When?"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#000"
+        android:textSize="20sp"/>
+    <EditText
+        android:id="@+id/txt_DateTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:inputType="text"
+        android:textAppearance="?android:attr/textAppearance"
+        android:textColor="@android:color/black" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Where?"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#000"
+        android:textSize="20sp"/>
+    <EditText
+        android:id="@+id/txt_postcode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:inputType="text"
+        android:textAppearance="?android:attr/textAppearance"
+        android:textColor="@android:color/black" />
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search"
+        android:layout_marginTop="50dp"
+        />
+    <Button
+        android:id="@+id/buttonGetAvailability"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="List Availability"
+        />
+    <Button
+        android:id="@+id/btn_add_availability"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Availability"
+        />
+    <Button
+        android:id="@+id/buttonGetServices"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="List Services"
+        />
+
+</LinearLayout>
